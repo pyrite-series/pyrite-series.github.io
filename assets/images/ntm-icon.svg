@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ntm-icon.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4403"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4397"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4342"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="735.17772"
+     inkscape:cy="630.70117"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="1912"
+     inkscape:window-y="311"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4463"
+       transform="matrix(10.488427,0,0,10.488427,-198.13095,-725.26425)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-77.296975,-76.246212)"
+         id="g4440">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4154"
+           style="opacity:0.98999999;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.62449992;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 133.08789,147.26562 a 31.567266,31.567266 0 0 0 -31.56836,31.56641 31.567266,31.567266 0 0 0 31.56836,31.56836 31.567266,31.567266 0 0 0 31.56641,-31.56836 31.567266,31.567266 0 0 0 -31.56641,-31.56641 z" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 101.77287,180.72683 c 21.84454,-33.84012 43.81536,-15.40483 43.81536,-15.40483 -20.67411,9.68855 -0.44169,36.41841 16.54125,25.00128"
+           id="path4344"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 139.02224,162.03901 c 0,0 0.97744,5.54297 -5.17703,2.65165 0,0 -1.75081,2.36266 1.51524,5.6821 0,0 -6.43973,4.79822 1.26268,7.07107"
+           id="path4417"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cscc" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4136-2"
+         y="168.15314"
+         x="31.503708"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.54796982px;line-height:125%;font-family:JasmineUPC;-inkscape-font-specification:JasmineUPC;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:JasmineUPC;-inkscape-font-specification:JasmineUPC"
+           y="168.15314"
+           x="31.503708"
+           id="tspan4138-5"
+           sodipodi:role="line">NT</tspan></text>
+    </g>
+  </g>
+</svg>

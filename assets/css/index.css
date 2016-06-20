@@ -1,0 +1,81 @@
+
+/*
+    colors: 000000-fc8871-264027-b89e97-26413c
+*/
+
+#bgvid { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+/*    filter: url(#blackandwhite);
+    -webkitFilter: url(#blackandwhite);
+    -mozFilter: url(#blackandwhite);
+*/
+}
+
+#bgvid { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+/*    filter: url(#blackandwhite);
+    -webkitFilter: url(#blackandwhite);
+    -mozFilter: url(#blackandwhite);
+*/
+}
+
+
+#block1 {
+    overflow: hidden;
+/*    background-color: transparent;
+*/    opacity: 1;
+    background-color:black;
+    z-index: -101;
+}
+
+#menu1{
+    border-color: transparent;
+}
+
+#video-container {
+background-color: blue;
+
+}
+
+.video{
+        filter: url(#bluefill);
+    -webkitFilter: url(#bluefill);
+    -mozFilter: url(#bluefill);
+
+}
+
+.vimeo-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.embed-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+.embed-container iframe, .embed-container object, .embed-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
