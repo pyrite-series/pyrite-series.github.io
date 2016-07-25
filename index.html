@@ -8,7 +8,7 @@
 
   <!-- Site Properties -->
   <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
-  <title>Timely</title>
+  <title>Pyrite</title>
   <link rel="stylesheet" type="text/css" href="./dist/components/reset.css">
   <link rel="stylesheet" type="text/css" href="./dist/components/site.css">
 
@@ -154,8 +154,8 @@
   <div class="ui container">
     <a class="item" href="#home">Home</a>
     <a class="item" href="#about">About</a>
-    <a class="item" href="#download">Download</a>
-    <a class="item" href="#donate">Donate</a>
+    <a class="item" href="#support">Support</a>
+    <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
 </div>
 </div>
 
@@ -163,8 +163,8 @@
 <div class="ui vertical inverted sidebar menu">
   <a class="item" href="#home">Home</a>
   <a class="item" href="#about">About</a>
-  <a class="item" href="#download">Download</a>
-  <a class="item" href="#donate">Donate</a>
+  <a class="item" href="#support">Support</a>
+  <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
 </div>
 
 
@@ -174,8 +174,10 @@
 
     <div class="ui container" >
       <div id="menu1" class="ui large secondary inverted pointing menu">
-        <img id="bgvid" src="./assets/images/banner-timely-larger.png">
-          <!-- <video autoplay muted loop id="bgvid">
+<!--         <img id="bgvid" style="visibility:hidden" src="./assets/images/banner-pyrite-larger.png">
+        <img id="bgvid" style="visibility:visible" src="./assets/images/banner-pyrite-glasses-larger.png">
+        <img id="bgvid" style="visibility:hidden" src="./assets/images/banner-pyrite-mag-larger.png">
+ -->          <!-- <video autoplay muted loop id="bgvid">
               <source src="./assets/videos/example.mp4" type="video/mp4">
           </video> -->
 
@@ -184,80 +186,57 @@
         </a>
         <a class="item" href="#home">Home</a>
         <a class="item" href="#about">About</a>
-        <a class="item" href="#download">Download</a>
-        <a class="item" href="#donate">Donate</a>
-<!--         <div class="right item">
-          <a class="ui inverted button">Log in</a>
-          <a class="ui inverted button">Sign Up</a>
+        <a class="item" href="#support">Support</a>
+        <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
+        <div class="right item">
+          <a class="ui inverted button">Twitter</a>
+          <a class="ui inverted button">Facebook</a>
+          <a class="ui inverted button">Indiegogo</a>
+          <a class="ui inverted button">Tumblr</a>
+
         </div>
- -->      </div>
+      </div>
     </div>
 
     <div class="ui text container">
-      <h1 class="ui inverted header" style="font-family: Lobster; text-shadow: 2px 2px #ff0000;">
-        TimelyVC
+      <h1 class="ui inverted header" style="font-family: Roboto; text-shadow: 2px 2px #F9C16D; font-weight: 100; margin-top:1em;">
+        <div>
+          <img id="#logo" style="width:200px; visibility:hidden;" src="./assets/images/pyrite.png">
+        </div>
+        #PYRITE
       </h1>
 <!--       <h1 class="">
         Video Comments
       </h1> -->
-      <h3>See and make timely comments on internet videos.</h3>
-      <div id="background" style="background-color:red;" class="ui huge primary button">Coming Soon to the Chrome Web Store!<i class="right arrow icon"></i></div>
+      <h3>A webseries created by New Tide Cinema</h3>
+      <div id="background" style="background-color:#F9C16D;" class="ui huge primary button">Crowdfunding launching in <b>5</b> days!<i class="right arrow icon"></i></div>
     </div>
+  <br>
+        <div class="center item">
+          <a class="ui inverted button">Twitter</a>
+          <a class="ui inverted button">Facebook</a>
+          <a class="ui inverted button">Indiegogo</a>
+          <a class="ui inverted button">Tumblr</a>
 
+        </div>
   </div>
-
-  <div class="ui vertical stripe segment" id="about">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">About Timely</h3>
-          <p>Timely is a chrome extension that places the power of <b>chronologically displayed comments</b> at your finger tips. Enjoy your favorite online videos with the addition of a <b>comment timeline</b> at the top. Users can post their own comments and add to the timeline to create a robust and insightful community of video commentary!</p>
-<!--           <h3 class="ui header">Uncensored</h3>
-          <p>We don't care what you post!</p>
- -->        </div>
-        <div class="six wide right floated column">
-          <!-- <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
-          <video autoplay muted loop id="bgvid" class="ui large bordered rounded image">
-              <source src="./assets/videos/example.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui vertical stripe segment" id="donate">
-    <div class="ui text container">
-      <h3 class="ui header" style="text-align: center;">Donate</h3>
-      <p style="text-align: center;">Please donate to us. You may help the maintainers of this open source project by:</p>
-
-  <div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <h3>Donating Money</h3>
-          <p>We have to run a server to keep TimelyVC working. Donate money to help pay for the upkeep.</p>
-          <a class="ui large button">Give Money</a>
-        </div>
-        <div class="column">
-          <h3>Donating Work</h3>
-          <p>Contribute to the project by making a pull request to the Github Repo.</p>
-          <a class="ui large button" href="https://github.com/timely-vc/timely-vc-chrome">Github Repo</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
   <footer>
   
 </footer>
+<script type="text/javascript">
+var srcArray = [
+  "./assets/images/pyrite.png", "./assets/images/glasses.png", "./assets/images/mag.png"
+];
+ var logo = document.getElementById("#logo");
+ var rando = Math.floor(Math.random() * 3)
+ console.log(srcArray[rando]);
+ logo.style.visibility = "visible";
+ logo.src = srcArray[rando];
+
+
+</script>
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 </body>
 
