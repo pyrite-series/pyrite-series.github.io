@@ -26,7 +26,7 @@
   <link rel="stylesheet" type="text/css" href="./dist/components/icon.css">
   <link rel="stylesheet" type="text/css" href="./dist/components/sidebar.css">
   <link rel="stylesheet" type="text/css" href="./dist/components/transition.css">
-
+  <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
   <style type="text/css">
 
     .hidden.menu {
@@ -150,21 +150,11 @@
 <body>
 
 <!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-  <div class="ui container">
-    <a class="item" href="#home">Home</a>
-<!--     <a class="item" href="#about">About</a>
- -->    <a class="item" href="https://www.indiegogo.com/project/preview/3d66c4fd#/">Support</a>
-    <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
-</div>
+<div class="ui large top hidden menu">
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="item" href="#home">Home</a>
-<!--   <a class="item" href="#about">About</a>
- -->  <a class="item" href="https://www.indiegogo.com/project/preview/3d66c4fd#/">Support</a>
-  <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
 </div>
 
 
@@ -175,53 +165,68 @@
     <div class="ui container" >
       <div id="menu1" class="ui large secondary inverted pointing menu">
       <img id="bgvid" style="visibility:visible" src="./assets/images/pyrite-cover.png">
-<!--         <img id="bgvid" style="visibility:hidden" src="./assets/images/banner-pyrite-larger.png">
-        <img id="bgvid" style="visibility:visible" src="./assets/images/banner-pyrite-glasses-larger.png">
-        <img id="bgvid" style="visibility:hidden" src="./assets/images/banner-pyrite-mag-larger.png">
- -->          <!-- <video autoplay muted loop id="bgvid">
-              <source src="./assets/videos/example.mp4" type="video/mp4">
+          <!-- <video autoplay muted id="bgvid">
+              <source src="./assets/videos/WheelBG.mov#t0.2,0.3">
           </video> -->
-
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="item" href="#home">Home</a>
-<!--         <a class="item" href="#about">About</a>
- -->        <a class="item" href="https://www.indiegogo.com/project/preview/3d66c4fd#/">Support</a>
-        <a class="item" href="http://nodebb-ckucera.rhcloud.com/">Forum</a>
-<!--         <div class="right item">
-          <a class="ui inverted button">Twitter</a>
-          <a class="ui inverted button">Facebook</a>
-          <a class="ui inverted button">Indiegogo</a>
-          <a class="ui inverted button">Tumblr</a>
-
-        </div> -->
       </div>
     </div>
 
     <div class="ui text container">
-      <h1 class="ui inverted header" style="font-family: Roboto; text-shadow: 2px 2px #F9C16D; font-weight: 100; margin-top:1em;">
+      <h1 class="ui inverted header" style="font-family:Actonia; font-size: 7em; font-weight: 100; margin-top:1em;">
         <div>
           <!-- <img id="#logo" style="width:200px; visibility:hidden;" src="./assets/images/pyrite.png"> -->
         </div>
-        PYRITE
+        Pyrite
       </h1>
-<!--       <h1 class="">
-        Video Comments
-      </h1> -->
-      <h3>A webseries by Gerod Bond</h3>
-      <a href="https://www.indiegogo.com/project/preview/3d66c4fd#/"><div id="background" style="background-color:none;" class="ui huge inverted button"> Support the campaign <i class="right arrow icon"></i></div></a>
+     <h3>A series by New Tide Cinema</h3>
+      <a target="_blank" href="https://www.indiegogo.com/project/preview/3d66c4fd#/"><div id="background" style="background-color:none;" class="ui huge inverted button"> Support the campaign <i class="right arrow icon"></i></div></a>
     </div>
   <br>
         <div class="center item">
-          <a style="margin: 0.25em 0.25em 0.25em 0.25em;" class="ui inverted button">Twitter</a>
-          <a style="margin: 0.25em 0.25em 0.25em 0.25em;" class="ui inverted button">Facebook</a>
-          <a style="margin: 0.25em 0.25em 0.25em 0.25em;" class="ui inverted button">Indiegogo</a>
-          <a style="margin: 0.25em 0.25em 0.25em 0.25em;" class="ui inverted button">Tumblr</a>
-          <a style="margin: 0.25em 0.25em 0.25em 0.25em;" class="ui inverted button">Instagram</a>
-
+         <a target="_blank" href="https://twitter.com/PyriteSeries" style="margin:0px; padding:4px; box-shadow:0px 0px 0px 0px transparent inset !important;" class="ui inverted button"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+          <a target="_blank" href="http://pyrite-series.tumblr.com/" style=" margin:0px; padding:4px; box-shadow:0px 0px 0px 0px transparent inset !important;" class="ui inverted button"><i class="fa fa-tumblr-square fa-3x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.instagram.com/pyrite.series/" style=" margin:0px; padding:4px; box-shadow:0px 0px 0px 0px transparent inset !important;" class="ui inverted button"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://vimeo.com/user54912698/" style=" margin:0px; padding:4px; box-shadow:0px 0px 0px 0px transparent inset !important;" class="ui inverted button"><i class="fa fa-vimeo-square fa-3x" aria-hidden="true"></i></a>
         </div>
+        <br>
+        <div id="arrow-down-div" class="arrow-down" style="">
+        <a href="#video" style="color:white;">
+          <a href="#video" style="color:white; text-align:center; text-justify: inter-word;">Trailer</a>
+          <a href="#video" style="color:white;" ><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a style="color:white;">
+          </a>
+        </div>
+ 
+<style type="text/css">
+  .arrow-down {
+    position: absolute;
+    bottom: 50px;
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+    -webkit-animation: fadeInOut 2s infinite;
+  }
+  
+  @-webkit-keyframes fadeInOut {
+      from { opacity: 0.2; }
+      50% { opacity: 1.0; }
+      to { opacity: 0.2; }
+  } 
+</style>
   </div>
+    <div style="background-color:black;" class="ui vertical stripe segment">
+    <div id="video" class="videoWrapper">
+      <iframe src="http://player.vimeo.com/video/103297320" width="80%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+        <div class="arrow-down" style="">
+          <a href="#IX7AAE5X60" style="color:white; text-align:center; text-justify: inter-word;">Gallery</a>
+          <a href="#IX7AAE5X60" style="color:white;" ><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a style="color:white;">
+        </div>
+
+    </div>
+    <div style="background-color:black;" class="ui vertical stripe segment">
+   
+      <div id="IX7AAE5X60"></div>
+    </div>
   <footer>
   
 </footer>
@@ -237,9 +242,57 @@
 
 
 </script>
-<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+<script>
+// function scrollTo(to, duration) {
+//     if (document.body.scrollTop == to) return;
+//     var diff = to - document.body.scrollTop;
+//     var scrollStep = Math.PI / (duration / 10);
+//     var count = 0, currPos;
+//     start = element.scrollTop;
+//     scrollInterval = setInterval(function(){
+//         if (document.body.scrollTop != to) {
+//             count = count + 1;
+//             currPos = start + diff * (0.5 - 0.5 * Math.cos(count * scrollStep));
+//             document.body.scrollTop = currPos;
+//         }
+//         else { clearInterval(scrollInterval); }
+//     },10);
+// }
+
+// function test(elID)
+// {
+//     var dest = document.getElementById(elID);
+//     scrollTo(dest.offsetTop, 500);
+// }
+
+// document.getElementById("arrow-down-div").addEventListener("click", function() {
+//   test("video");
+// })
+
+
+
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
+<script src="https://flickrit.com/embed.js.php?id=IX7AAE5X60"></script>
+<!-- <link href='https://fonts.googleapis.com/css?family=Lobster:400' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+ -->
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 </body>
 
 </html>
